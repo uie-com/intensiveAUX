@@ -15,7 +15,7 @@
     --darkGray: #a3a3a3;
 
     --black: #2c2c2c;
-    --bgMain: #8c9b28;
+    --bgMain: #d8a739;
     --bigBorderColor: #ffffff;
     /* --accent: (var(brightRed)); */
 }
@@ -556,7 +556,7 @@ START CTAs
 
 .cta-c:hover {
     color: #fff !important;
-    background-color: var(--darkGreen);
+    background-color: var(--darkYellow);
     cursor: pointer;
 }
 

@@ -30,7 +30,22 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     display: grid;
     grid-template-columns: repeat(26, 1fr);
 }
-
+.header-text-shadow{
+    text-shadow: 4px 4px 4px rgba(97,30,2,0.19);
+}
+/*
+----------------------------
+$BACKGROUNDS
+----------------------------
+*/
+.img-bg {
+    background: url("images-gcev/bg-aux.png") no-repeat;
+    background-size: cover;
+}
+.img-bg-wide {
+    background: url("images-gcev/bg-aux-wide.png") no-repeat;
+    background-size: cover;
+}
 
 /*------------------------------------*\
     $HEADER
@@ -122,7 +137,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #ffffff !important;
     border-radius: 0px;
-    background-color: var(--brightGreen);
+    background-color: var(--brightYellow);
     text-decoration: none;
     transition: background-color 0.24s ease;
     display: block;
@@ -138,7 +153,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
 
 .cta-b:hover {
     color: #fff !important;
-    background-color: var(--darkGreen);
+    background-color: var(--darkYellow);
 }
 
 /*------------------------------------*\
