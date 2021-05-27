@@ -9,6 +9,7 @@ GENERAL
 HEADER
 
  $intro-statements
+ $quoted-sec-area
 
 organizations-love
 user-experience 
@@ -276,10 +277,76 @@ $BACKGROUNDS
 
 }
 /*------------------------------------*\
-    $user-experience 
+    $quoted-sec-area
 \*------------------------------------*/
+#quoted-sec-area .sec-desc {
+    grid-column: 3/17;
+}
+
+#quoted-sec-area .sec-il {
+    grid-column: 18/26;
+}
+
+#quoted-sec-area .sec-il img {
+    padding-top: 132px;
+}
 
 
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+
+    #quoted-sec-area .sec-desc {
+        grid-column: 2/17;
+    }
+
+    #quoted-sec-area .sec-il {
+        grid-column: 18/27;
+    }
+
+    #quoted-sec-area .sec-il img {
+        padding-top: 132px;
+    }
+}
+
+@media (max-device-width: 800px) {
+    #quoted-sec-area .sec-il img {
+        padding-top: 132px;
+        order: 1;
+    }
+
+    #quoted-sec-area .sec-desc {
+        order: 2;
+        grid-column: 1/26;
+    }
+
+    #quoted-sec-area .sec-il {
+        grid-column: 1/26;
+    }
+
+}
+
+.grid26 {
+    display: grid;
+    grid-template-columns: repeat(26, 1fr);
+}
+
+.heading-highlighted {
+    /* Chris Coyier https://css-tricks.com/multi-line-padded-text/  */
+    font-family: 'Anton', sans-serif;
+    /* text-transform: uppercase; */
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    background-color: var(--brightYellow);
+    color: #fff;
+    display: inline;
+    padding: 2px 10px;
+    margin: 0;
+    line-height: 1.75;
+    /* Needs prefixing */
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+  
 /*------------------------------------*\
     $user-experience 
 \*------------------------------------*/
@@ -330,24 +397,6 @@ $BACKGROUNDS
 
 }
 
-
-.heading-highlighted {
-    /* Chris Coyier https://css-tricks.com/multi-line-padded-text/  */
-    font-family: 'Anton', sans-serif;
-    /* text-transform: uppercase; */
-    font-size: 35px;
-    letter-spacing: 2px;
-    font-weight: 300;
-    background-color: var(--brightPurple);
-    color: #fff;
-    display: inline;
-    padding: 2px 10px;
-    margin: 0;
-    line-height: 1.75;
-    /* Needs prefixing */
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
-}
 
 @media(min-device-width: 800px) {
     .txt-right-on-desktop {
