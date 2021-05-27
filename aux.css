@@ -8,6 +8,8 @@ aux.css overwrites and customizes general style.css
 GENERAL
 HEADER
 
+ $intro-statements
+
 organizations-love
 user-experience 
 persuasive-tells
@@ -160,6 +162,8 @@ $BACKGROUNDS
 
 /*------------------------------------*\
     $intro-statements
+    StatementsA -> section description text (sec-des) on the left side; section illustrations (sec-il) on the right side;
+    StatementsB -> section description text (sec-des) on the right side; section illustrations (sec-il) on the left side;
 \*------------------------------------*/
 .introStatementsA .sec-desc {
     grid-column: 3 / 15;
@@ -272,8 +276,10 @@ $BACKGROUNDS
 
 }
 /*------------------------------------*\
-    $organizations-love
+    $user-experience 
 \*------------------------------------*/
+
+
 /*------------------------------------*\
     $user-experience 
 \*------------------------------------*/
