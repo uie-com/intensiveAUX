@@ -9,10 +9,11 @@ GENERAL
 HEADER
 
  $intro-statements
- $quoted-sec-area
+ $quotedArticleRightLeft
+ $quotedArticleRight 
 
 organizations-love
-user-experience 
+
 persuasive-tells
 is-puxm-right-for-you
 single-column
@@ -279,46 +280,46 @@ $BACKGROUNDS
 /*------------------------------------*\
     $quoted-sec-area
 \*------------------------------------*/
-#quoted-sec-area .sec-desc {
+.quotedArticleLeft .sec-desc {
     grid-column: 3/17;
 }
 
-#quoted-sec-area .sec-il {
+.quotedArticleLeft .sec-il {
     grid-column: 18/26;
 }
 
-#quoted-sec-area .sec-il img {
+.quotedArticleLeft .sec-il img {
     padding-top: 132px;
 }
 
 
 @media (min-device-width: 800px) and (max-device-width: 1280px) {
 
-    #quoted-sec-area .sec-desc {
+    .quotedArticleLeft .sec-desc {
         grid-column: 2/17;
     }
 
-    #quoted-sec-area .sec-il {
+    .quotedArticleLeft .sec-il {
         grid-column: 18/27;
     }
 
-    #quoted-sec-area .sec-il img {
+    .quotedArticleLeft .sec-il img {
         padding-top: 132px;
     }
 }
 
 @media (max-device-width: 800px) {
-    #quoted-sec-area .sec-il img {
+    .quotedArticleLeft .sec-il img {
         padding-top: 132px;
         order: 1;
     }
 
-    #quoted-sec-area .sec-desc {
+    .quotedArticleLeft .sec-desc {
         order: 2;
         grid-column: 1/26;
     }
 
-    #quoted-sec-area .sec-il {
+    .quotedArticleLeft .sec-il {
         grid-column: 1/26;
     }
 
@@ -348,50 +349,50 @@ $BACKGROUNDS
 }
   
 /*------------------------------------*\
-    $user-experience 
+    $quotedArticleRight 
 \*------------------------------------*/
-#user-experience .sec-il {
+.quotedArticleRight .sec-il {
     grid-column: 2 / 12;
 }
 
-#user-experience .sec-desc {
+.quotedArticleRight .sec-desc {
     grid-column: 13 / 25;
 }
 
 
-#user-experience .sec-il img {
+.quotedArticleRight .sec-il img {
     padding-top: 132px;
 }
 
 
 @media(min-device-width: 800px) and(max-device-width: 1280px) {
 
-    #user-experience .sec-il {
+    .quotedArticleRight .sec-il {
         grid-column: 4 / 14;
     }
 
-    #user-experience .sec-desc {
+    .quotedArticleRight .sec-desc {
         grid-column: 15 / 26;
     }
 
 
-    #user-experience .sec-il img {
+    .quotedArticleRight .sec-il img {
         padding-top: 132px;
     }
 }
 
 @media(max-device-width: 800px) {
-    #user-experience .sec-il img {
+    .quotedArticleRight .sec-il img {
         padding-top: 132px;
         order: 1;
     }
 
-    #user-experience .sec-desc {
+    .quotedArticleRight .sec-desc {
         order: 2;
         grid-column: 1 / 26;
     }
 
-    #user-experience .sec-il {
+    .quotedArticleRight .sec-il {
         grid-column: 1 / 26;
     }
 
