@@ -678,7 +678,7 @@ START -- NEW FOOTER
 }
 
 .footer-padding {
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .emulated-flex-gap p {
@@ -689,19 +689,20 @@ START -- NEW FOOTER
     --gap: 20px;
     display: inline-flex;
     flex-wrap: wrap;
-    margin: 20px * var(--gap)) 0;
+    margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
     width: calc(100% + var(--gap));
+    margin-top: 20px;
 }
 
 .emulated-flex-gap div {
     flex-basis: calc(33% - var(--gap));
 }
 
-.emulated-flex-gap > * {
+.emulated-flex-gap>* {
     margin: var(--gap) 0 0 var(--gap);
 }
 
-@media only screen and(max-width: 625px) {
+@media only screen and (max-width: 625px) {
     .ft-mk {
         justify-content: flex-end;
     }
@@ -718,7 +719,7 @@ START -- NEW FOOTER
 }
 
 
-@media only screen and(max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
     .ft-mk .b2 {
         flex-basis: 100% !important;
@@ -730,13 +731,13 @@ START -- NEW FOOTER
     }
 }
 
-@media only screen and(max-width: 400px) {
+@media only screen and (max-width: 400px) {
 
-    .footer-notice:not(:first-child):not(:last-child) {
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-top: 0;
-        margin-bottom: 0;
+    .footer-notice :not(:first-child):not(:last-child) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 }
 
@@ -754,6 +755,7 @@ START -- NEW FOOTER
 }
 
 .footer-notice span {
+    margin-right: 30px;
     margin: 20px;
 }
 
