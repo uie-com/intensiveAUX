@@ -10,9 +10,10 @@ HEADER
 
  $intro-statements
  $quotedArticleRightLeft
- $quotedArticleRight 
+ $quotedArticleRight
+ $illustratedParagraph (text on left/right)
+ $single-column
 
-organizations-love
 
 persuasive-tells
 is-puxm-right-for-you
@@ -278,7 +279,7 @@ $BACKGROUNDS
 
 }
 /*------------------------------------*\
-    $quoted-sec-area
+    $quotedArticleLeft 
 \*------------------------------------*/
 .quotedArticleLeft .sec-desc {
     grid-column: 3/17;
@@ -406,43 +407,16 @@ $BACKGROUNDS
 
 }
 
-/*------------------------------------*\
-    $persuasive-tells
-\*------------------------------------*/
-#persuasive-tells .middle {
-    grid-column: 5 / 23;
-}
-
-@media(max-device-width: 800px) {
-    #persuasive-tells .middle {
-        grid-column: 1 / 26;
-    }
-}
 
 /*------------------------------------*\
-    $is-puxm-right-for-you
+    $illustratedParagraph
+    text block on left side
 \*------------------------------------*/
-/*------------------------------------*\
-    $single-column
-\*------------------------------------*/
-.single-column {
-    grid-column: 0 / 20;
-}
-
-
-@media(max-device-width: 800px) {
-    .single-column {
-        grid-column: 1 / 27;
-    }
-}
-/*------------------------------------*\
-    $led-by-jared
-\*------------------------------------*/
-.sec-desc {
+ .sec-desc {
     grid-column: 3 / 16;
 }
 
-.sec-il {
+ .sec-il {
     grid-column: 17 / 26;
 }
 
@@ -484,9 +458,9 @@ $BACKGROUNDS
     }
 
 }
-
 /*------------------------------------*\
-    $Description&Illustration
+    $illustratedParagraph
+    text block on right side
 \*------------------------------------*/
 .sec-desc-b {
     grid-column: 13 / 26;
@@ -532,14 +506,20 @@ $BACKGROUNDS
 
 }
 /*------------------------------------*\
-    $roll-up-your-sleeves
+    $single-column
 \*------------------------------------*/
-/*------------------------------------*\
-    $expected-hours
-\*------------------------------------*/
-/*------------------------------------*\
-    $this-intensive-won-t-happen-again-until-november
-\*------------------------------------*/
+.single-column {
+    grid-column: 0 / 20;
+}
+
+
+@media(max-device-width: 800px) {
+    .single-column {
+        grid-column: 1 / 27;
+    }
+}
+
+
 /*------------------------------------*\
     $ready-to-do-this
 \*------------------------------------*/
