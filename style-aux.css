@@ -509,7 +509,7 @@ $BACKGROUNDS
     $single-column
 \*------------------------------------*/
 .single-column {
-    grid-column: 0 / 20;
+    grid-column: 1 / 20;
 }
 
 
@@ -564,3 +564,106 @@ $BACKGROUNDS
 
 }
 
+
+
+
+
+
+
+/*------------------------------------*\
+    $timetable
+\*------------------------------------*/
+
+
+
+.table-layout .row-image {
+    flex-basis: 40%;
+    min-height: 350px;
+}
+
+.table-text-area {
+    flex-basis: 60%;
+}
+
+.table-layout .row {
+    display: flex;
+    background-color: white;
+    margin-bottom: 20px;
+
+    border: 1px solid rgb(242, 241, 248);
+    -webkit-box-shadow: 7px 7px 10px 0px rgb(27 51 91 / 8%);
+    -moz-box-shadow: 7px 7px 10px 0px rgba(27, 51, 91, 0.075);
+    box-shadow: 5px 5px 10px 0px rgb(27 51 91 / 8%), 13px 13px 15px 0px rgb(27 51 91 / 3%);
+
+}
+
+.table-layout h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .table-layout .row {
+        flex-direction: column;
+    }
+
+    .table-layout .row-image {
+        min-height: 0;
+    }
+}
+
+
+.row-img-inside-day1 {
+    background-image: url("puxm-images/march29.svg");
+    background-size: contain;
+}
+
+.row-img-inside-day2 {
+    background-image: url("puxm-images/march30.svg");
+    background-size: contain;
+}
+
+.row-img-inside-day3 {
+    background-image: url("puxm-images/march31.svg");
+    background-size: contain;
+}
+
+.row-img-inside-day4 {
+    background-image: url("puxm-images/april1.svg");
+    background-size: contain;
+}
+
+.row-img-inside-day5 {
+    background-image: url("puxm-images/april2.svg");
+    background-size: contain;
+}
+
+@media only screen and (min-width: 700px) {
+  
+    .row-image {
+        max-width: 350px;
+    }
+}
+
+
+
+.table-layout ul,
+.table-layout ol {
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+}
+
+.table-text-area {
+    padding: 20px;
+}
+
+.time-stamp {
+    font-weight: 800;
+    color: white;
+    padding: 4px 10px;
+    background-color: #a33973;
+    display: inline-block;
+}
