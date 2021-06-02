@@ -3,7 +3,7 @@
 \*------------------------------------*/
 /*
 -----
-aux.css overwrites and customizes general style.css 
+aux.css overwrites and customizes general style.css
 -----
 GENERAL
 HEADER
@@ -195,7 +195,7 @@ $BACKGROUNDS
 
 .cta-c {
     /* flex: 1; */
-    
+
     color: var(--black) !important;
     background-color: #ffffff;
     font-weight: 700;
@@ -323,7 +323,7 @@ $BACKGROUNDS
 
 }
 /*------------------------------------*\
-    $quotedArticleLeft 
+    $quotedArticleLeft
 \*------------------------------------*/
 .quotedArticleLeft .sec-desc {
     grid-column: 3/17;
@@ -392,9 +392,9 @@ $BACKGROUNDS
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
-  
+
 /*------------------------------------*\
-    $quotedArticleRight 
+    $quotedArticleRight
 \*------------------------------------*/
 .quotedArticleRight .sec-il {
     grid-column: 2 / 12;
@@ -658,7 +658,7 @@ $BACKGROUNDS
 
 
 .row-img-inside-day1 {
-    background-image: url("puxm-images/march29.svg");
+    background-image: url("puxm-images/march29.png");
     background-size: contain;
 }
 
@@ -683,7 +683,7 @@ $BACKGROUNDS
 }
 
 @media only screen and (min-width: 700px) {
-  
+
     .row-image {
         max-width: 350px;
     }
