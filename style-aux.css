@@ -52,6 +52,10 @@ $BACKGROUNDS
     background: url("images-aux/bg-aux-wide.png") no-repeat;
     background-size: cover;
 }
+.img-bg-wide-top {
+    background: url("images-aux/aux-top-bg.png") no-repeat;
+    background-size: cover;
+}
 
 .lead .lead-text {
     margin: 20px 30px 5px 0;
@@ -139,6 +143,31 @@ $BACKGROUNDS
     }
 }
 
+.cta-a {
+    /* flex: 1; */
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff !important;
+    border-radius: 0;
+    background-color: var(--black);
+    text-decoration: none;
+    transition: background-color 0.24s ease;
+    display: block;
+    font-size: 1em;
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.8em 2em;
+    max-width: 200px;
+    letter-spacing: 1px;
+}
+
+.cta-a:hover {
+    color: var(--black) !important;
+    background-color: var(--brightYellow);
+}
+
+
 .cta-b {
     /* flex: 1; */
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -163,6 +192,21 @@ $BACKGROUNDS
     background-color: var(--darkYellow);
 }
 
+
+.cta-c {
+    /* flex: 1; */
+    
+    color: var(--black) !important;
+    background-color: #ffffff;
+    font-weight: 700;
+    max-width: 200px;
+    letter-spacing: 1px;
+}
+
+.cta-c:hover {
+    color: var(--black) !important;
+    background-color: #f4eee6 !important;
+}
 /*------------------------------------*\
     $intro-statements
     StatementsA -> section description text (sec-des) on the left side; section illustrations (sec-il) on the right side;

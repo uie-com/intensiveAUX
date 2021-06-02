@@ -25,7 +25,8 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     --darkGreen: #575e22;
     --brightGreen: #8c9b28;
     --darkYellow: #9b621c;
-    --brightYellow: #d8a739;
+     --brightYellow: #d8a739; /*original CC colour */
+    --brightYellow: #f4b42e;
     --darkPurple: #662547;
     --brightPurple: #9B0E5B;
     --darkOrange: #C14E27;
@@ -34,7 +35,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     --darkGray: #a3a3a3;
 
     --black: #2c2c2c;
-    --bgMain: #d8a739;
+    --bgMain: #f4b42e;
     --bigBorderColor: #ffffff;
     /* --accent: (var(brightRed)); */
 }
@@ -1100,7 +1101,7 @@ VIDEO Player
     align-items: center;
     justify-content: center;
     height: 300px;
-    background: url(https://d168te3gkmn1ln.cloudfront.net/uploads/page_section_item/image/39059/fixed_jared_headshot.jpg);
+    background: url(puxm-images/jared-speaking-live.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
