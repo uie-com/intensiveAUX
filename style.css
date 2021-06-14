@@ -24,9 +24,9 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     --brightBlue: #00A3B4;
     --darkGreen: #575e22;
     --brightGreen: #8c9b28;
-    --darkYellow: #9b621c;
-     --brightYellow: #d8a739; /*original CC colour */
-    --brightYellow: #f4b42e;
+    --orange: #9b621c;
+     --darkYellow: #d8a739; /*original CC colour */
+    --brightYellow: #FFCD5E;
     --darkPurple: #662547;
     --brightPurple: #9B0E5B;
     --darkOrange: #C14E27;
@@ -35,7 +35,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     --darkGray: #a3a3a3;
 
     --black: #2c2c2c;
-    --bgMain: #f4b42e;
+    --bgMain: #FFCD5E;
     --bigBorderColor: #ffffff;
     /* --accent: (var(brightRed)); */
 }
@@ -789,15 +789,6 @@ flex-shrink: 0; */
 
 
 
-.text-wall p {
-    font-size: 32px;
-    margin-bottom: 0;
-    font-size: 45px;
-    padding: 20px 20px;
-    line-height: 1.2;
-    font-weight: 700;
-
-}
 .text-wall-border {
     border-left: 10px solid var(--brightGreen);
 }
