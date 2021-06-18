@@ -64,27 +64,27 @@ $BACKGROUNDS
     background: url("images-aux/aux-top-bg.png") no-repeat;
     background-size: cover;
 }
-.img-bg-top-and-bottom-yellow{
+.img-bg-top-and-bottom-yellow {
     background-color: var(--brightYellow);
     background-image: url("images-aux/box-top-bg.png"), url("images-aux/box-bottom-bg.png");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
-    background-size:cover, cover;
+    background-size: cover, cover;
 }
 
-.img-bg-top-and-bottom-white{
+.img-bg-top-and-bottom-white {
     background-color: white;
     background-image: url("images-aux/box-bottom-bg-white.png"), url("images-aux/box-bottom-bg.png");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
-    background-size:cover, cover;
+    background-size: cover, cover;
 }
 
-.invite-bg{
+.invite-bg {
     background-image: url("images-aux/invite-bg-top.png"), url("images-aux/invite-bg-bottom.png");
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
-    background-size:cover, cover;
+    background-size: cover, cover;
 }
 
 .lead .lead-text {
@@ -99,12 +99,11 @@ $BACKGROUNDS
 .lead {
     padding: 5px 30px;
 }
-.lead-wraper{
-    padding-top:80px;
-    padding-bottom:40px;
+.lead-wraper {
+    padding-top: 60px;
+    padding-bottom: 60px;
     /* make AUX promotional graphics smaller */
     margin: 0 auto;
-    max-width: 700px;
 }
 @media only screen and(max-width: 700px) {
     .lead .lead-text {
@@ -121,8 +120,8 @@ $BACKGROUNDS
     $HEADER
 \*------------------------------------*/
 .square-svg {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .square-svg img {
@@ -255,14 +254,14 @@ $BACKGROUNDS
     font-family: league-gothic, sans-serif;
     font-size: 45px;
     font-weight: 700;
-    text-shadow: 1px 1px 0px transparent, 3px 3px 0px #ffffff, 3px 3px 0px #ffffff;
+    text-shadow: 1px 1px 0 transparent, 3px 3px 0 #ffffff, 3px 3px 0 #ffffff;
     text-align: center;
     display: block;
     color: #212121;
     line-height: 1;
     max-width: 800px;
     margin: 0 auto;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 /*------------------------------------*\
     $intro-statements
@@ -270,13 +269,13 @@ $BACKGROUNDS
     StatementsB -> section description text (sec-des) on the right side; section illustrations (sec-il) on the left side;
 \*------------------------------------*/
 .introStatementsA .sec-desc {
-    grid-column: 3 / 15;
+    grid-column: 3 / 13;
     display: grid;
     align-content: center;
 }
 
 .introStatementsA .sec-il {
-    grid-column: 16 / 26;
+    grid-column: 15 / 26;
 }
 
 .introStatementsA .sec-il img {
@@ -383,11 +382,11 @@ $BACKGROUNDS
     $quotedArticleLeft
 \*------------------------------------*/
 .quotedArticleLeft .sec-desc {
-    grid-column: 3/17;
+    grid-column: 3 / 17;
 }
 
 .quotedArticleLeft .sec-il {
-    grid-column: 18/26;
+    grid-column: 18 / 26;
 }
 
 .quotedArticleLeft .sec-il img {
@@ -395,14 +394,14 @@ $BACKGROUNDS
 }
 
 
-@media (min-device-width: 800px) and (max-device-width: 1280px) {
+@media(min-device-width: 800px) and(max-device-width: 1280px) {
 
     .quotedArticleLeft .sec-desc {
-        grid-column: 2/17;
+        grid-column: 2 / 17;
     }
 
     .quotedArticleLeft .sec-il {
-        grid-column: 18/27;
+        grid-column: 18 / 27;
     }
 
     .quotedArticleLeft .sec-il img {
@@ -410,7 +409,7 @@ $BACKGROUNDS
     }
 }
 
-@media (max-device-width: 800px) {
+@media(max-device-width: 800px) {
     .quotedArticleLeft .sec-il img {
         padding-top: 132px;
         order: 1;
@@ -418,11 +417,11 @@ $BACKGROUNDS
 
     .quotedArticleLeft .sec-desc {
         order: 2;
-        grid-column: 1/26;
+        grid-column: 1 / 26;
     }
 
     .quotedArticleLeft .sec-il {
-        grid-column: 1/26;
+        grid-column: 1 / 26;
     }
 
 }
@@ -513,11 +512,11 @@ $BACKGROUNDS
     $illustratedParagraph
     text block on left side
 \*------------------------------------*/
- .sec-desc {
+.sec-desc {
     grid-column: 3 / 16;
 }
 
- .sec-il {
+.sec-il {
     grid-column: 17 / 26;
 }
 
@@ -666,15 +665,9 @@ $BACKGROUNDS
 }
 
 
-
-
-
-
-
 /*------------------------------------*\
     $timetable
 \*------------------------------------*/
-
 
 
 .table-layout .row-image {
@@ -692,18 +685,18 @@ $BACKGROUNDS
     margin-bottom: 20px;
 
     border: 1px solid rgb(242, 241, 248);
-    -webkit-box-shadow: 7px 7px 10px 0px rgb(27 51 91 / 8%);
-    -moz-box-shadow: 7px 7px 10px 0px rgba(27, 51, 91, 0.075);
-    box-shadow: 5px 5px 10px 0px rgb(27 51 91 / 8%), 13px 13px 15px 0px rgb(27 51 91 / 3%);
+    -webkit-box-shadow: 7px 7px 10px 0 rgb(27 51 91 / 8%);
+    -moz-box-shadow: 7px 7px 10px 0 rgba(27, 51, 91, 0.075);
+    box-shadow: 5px 5px 10px 0 rgb(27 51 91 / 8%), 13px 13px 15px 0 rgb(27 51 91 / 3%);
 
 }
 
 .table-layout h3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and(max-width: 700px) {
     .table-layout .row {
         flex-direction: column;
     }
@@ -739,7 +732,7 @@ $BACKGROUNDS
     background-size: contain;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and(min-width: 700px) {
 
     .row-image {
         max-width: 350px;
@@ -747,13 +740,12 @@ $BACKGROUNDS
 }
 
 
-
 .table-layout ul,
 .table-layout ol {
-    margin-block-start: 0em;
+    margin-block-start: 0;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
     padding-inline-start: 20px;
 }
 
@@ -771,15 +763,38 @@ $BACKGROUNDS
 
 
 /* Updates June 18 2021, ASAP*/
-.sec-il img{
+.sec-il img {
     max-width: 200px;
 }
+#how-the-take .sec-desc {
+    grid-column: 3 / 13;
+}
+
+#how-the-take .sec-il {
+    grid-column: 15 / 26;
+}
+
 .introStatementsB .sec-il {
     grid-column: 3 / 13;
     text-align: center;
 }
 
-.yellow-bg{
+@media(max-device-width: 800px) {
+    #how-the-take .sec-il img {
+        margin-top: 0;
+    }
+
+    #how-the-take .sec-desc {
+        grid-column: 1 / 26;
+    }
+
+    #how-the-take .sec-il {
+        grid-column: 1 / 26;
+    }
+
+}
+
+.yellow-bg {
     background-color: var(--brightYellow);
 }
 .text-wall .h3 {
@@ -793,7 +808,7 @@ $BACKGROUNDS
     line-height: 1;
     max-width: 800px;
     margin: 0 auto;
-    padding-bottom:20px;
+    padding-bottom: 20px;
     text-transform: uppercase;
     font-style: italic;
 }
@@ -804,11 +819,87 @@ $BACKGROUNDS
 .half-right {
     grid-column: 14 / 24;
 }
-@media(min-device-width: 800px) and(max-device-width: 1280px) {
+@media(min-device-width: 800px) and(max-device-width: 1280px) {}
+
+@media(max-device-width: 800px) {
+    .half-left,
+    .half-right {
+        grid-column: 2 / 24;
+    }
+}
+
+
+.heading-highlighted {
+    font-family: league-gothic, sans-serif;
+    /* text-transform: uppercase; */
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    display: inline;
+    padding: 3px 10px;
+    margin: 0;
+    line-height: 1.45;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+
+.heading-highlighted2 {
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 #4a4a4a, 1px 1px 0 #4a4a4a, 2px 3px 0 #4a4a4a;
+    color: #f4b42e;
+    background-color: #ffffff;
+    line-height: 1.4;
+
+}
+
+
+.h2-quotes {
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px !important;
+    font-weight: 600;
+    padding-bottom: 20px;
+    /* color: gray; */
+    line-height: 1.1;
+}
+
+
+@media(max-device-width: 800px) {
+    .img-bg {
+        background-color: #FFCD5E !important;
+        background: none;
+        background-size: cover;
+    }
+
+    .lead-wraper {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        /* make AUX promotional graphics smaller */
+        margin: 0 auto;
+    }
+}
+
+.middleTextWall {
+    grid-column: 1 / 27;
 }
 
 @media(max-device-width: 800px) {
-    .half-left, .half-right {
-        grid-column: 2 / 24;
+    .middleTextWall {
+        grid-column: 2 / 26;
+    }
+
+    .text-wall {
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-wall p {
+        margin: 30px 10px;
+        font-size: 40px;
+        font-weight: 600;
     }
 }
