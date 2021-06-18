@@ -446,7 +446,7 @@ START header
 ----------------------------
 */
 .header {
-    padding: 35px 0px;
+    padding: 35px 5px;
     display: flex;
     justify-content: space-between;
 }

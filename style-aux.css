@@ -102,6 +102,9 @@ $BACKGROUNDS
 .lead-wraper{
     padding-top:80px;
     padding-bottom:40px;
+    /* make AUX promotional graphics smaller */
+    margin: 0 auto;
+    max-width: 700px;
 }
 @media only screen and(max-width: 700px) {
     .lead .lead-text {
@@ -188,7 +191,7 @@ $BACKGROUNDS
     font-size: 1em;
     text-transform: uppercase;
     text-align: center;
-    padding: 0.8em 2em;
+    padding: 0.8em 1em;
     max-width: 200px;
     letter-spacing: 1px;
 }
@@ -764,4 +767,48 @@ $BACKGROUNDS
     padding: 4px 10px;
     background-color: #a33973;
     display: inline-block;
+}
+
+
+/* Updates June 18 2021, ASAP*/
+.sec-il img{
+    max-width: 200px;
+}
+.introStatementsB .sec-il {
+    grid-column: 3 / 13;
+    text-align: center;
+}
+
+.yellow-bg{
+    background-color: var(--brightYellow);
+}
+.text-wall .h3 {
+    font-family: league-gothic, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: none;
+    text-align: center;
+    display: block;
+    color: #212121;
+    line-height: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom:20px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.half-left {
+    grid-column: 3 / 13;
+}
+.half-right {
+    grid-column: 14 / 24;
+}
+@media(min-device-width: 800px) and(max-device-width: 1280px) {
+}
+
+@media(max-device-width: 800px) {
+    .half-left, .half-right {
+        grid-column: 2 / 24;
+    }
 }
