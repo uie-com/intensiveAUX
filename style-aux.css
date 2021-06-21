@@ -124,9 +124,6 @@ $BACKGROUNDS
     padding-bottom: 0;
 }
 
-.square-svg img {
-    padding-left: 20px;
-}
 
 #hero .when {
     font-size: 35px;
@@ -140,8 +137,13 @@ $BACKGROUNDS
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .square-svg img {
+        padding-left: 60px;
+    }
 }
 
+
+a
 @media screen and(max-width: 800px) {
     .basis30 {
         order: 2;
@@ -411,7 +413,7 @@ $BACKGROUNDS
 
 @media(max-device-width: 800px) {
     .quotedArticleLeft .sec-il img {
-        padding-top: 132px;
+        padding-top: 12px;
         order: 1;
     }
 
@@ -902,4 +904,27 @@ $BACKGROUNDS
         font-size: 40px;
         font-weight: 600;
     }
+    .square-svg .container{
+        padding: 0;
+    }
+    .introStatementsA .sec-il, .introStatementsB  .sec-il{
+        text-align: center;
+    }
+    .introStatementsB .sec-il {
+        grid-column: 1 / 26;
+    }
+    #mobile-view-1{
+        padding-bottom:0;
+    }
+    #mobile-view-2{
+        padding-top:0;
+    }
 }
+
+
+@media only screen and (min-width: 1000px) {
+    .lead-wraper .img-resp{
+            padding-left: 60px ; 
+        }
+
+    }
