@@ -446,12 +446,12 @@ START header
 ----------------------------
 */
 .header {
-    padding: 35px 5px;
+    padding: 35px 20px;
     display: flex;
     justify-content: space-between;
 }
 .header img {
-    width: 230px;
+    width: 200px;
     max-width: 100%;
     height: auto;
 }
@@ -1308,3 +1308,17 @@ START -- NEW FOOTER
 }
 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
